@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yatindhingra.savered.loginActivity"
+    android:background="@drawable/back">
+
+   <ImageView
+       android:src="@drawable/logo1"
+       android:layout_height="150dp"
+       android:layout_width="150dp"
+       android:layout_centerHorizontal="true"
+       android:paddingTop="30dp"
+       android:id="@+id/logo"
+       tools:ignore="ContentDescription" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="@string/name"
+        android:id="@+id/uname"
+        />
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/log_in"
+        android:id="@+id/login"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="10dp"
+        android:text="@string/sign_up"
+        android:id="@+id/signup"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo_main"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>
