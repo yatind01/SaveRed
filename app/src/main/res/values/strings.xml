@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Save Red</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="log_in">LOG IN</string>
+    <string name="name">Email Id</string>
+    <string name="password">Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="nearby_hospitals">NEARBY HOSPITALS</string>
+    <string name="camera">CAMERA</string>
+    <string name="maps">MAPS</string>
+    <string name="search">Search</string>
+    <string name="track_your_workout">TRACK YOUR WORKOUT</string>
+</resources>
