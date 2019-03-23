@@ -34,6 +34,10 @@
           <option name="url" value="https://github.com/Manan-YMCA/EC19-App" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/Prerna1/SihProject/tree/84b8b94b4c0d69cc2388ca9040946d72c0703af8" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Desktop" />
